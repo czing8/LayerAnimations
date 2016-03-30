@@ -10,6 +10,11 @@
 
 #import "VPulseLayer.h"
 
+
+#import "VSnowView.h"
+#import "VRainView.h"
+
+
 #define kMaxRadius 160
 
 #define kSCREEN_SIZE  [UIScreen mainScreen].bounds.size
@@ -35,6 +40,8 @@
     [self setupIconLayer];
     
     [self setupPulse];
+    
+    [self setupEmitter];
 }
 
 - (void)setupIconLayer{
@@ -52,6 +59,20 @@
     self.pulse.position = self.beaconView.center;
     [self.view.layer insertSublayer:self.pulse below:self.beaconView.layer];
     [self setupInitialValues];
+}
+
+
+- (void)setupEmitter{
+    
+    VSnowView * snowView = [[VSnowView alloc] initWithFrame:CGRectMake(0, kSCREEN_SIZE.height-160, 160, 160)];
+    [self.view addSubview:snowView];
+    [snowView show];
+    
+    VRainView * rainView = [[VRainView alloc] initWithFrame:CGRectMake(kSCREEN_SIZE.width-160, kSCREEN_SIZE.height-160, 160, 160)];
+    [self.view addSubview:rainView];
+    [rainView show];
+    
+    NSLog(@"%@", NSStringFromCGRect(snowView.frame));
 }
 
 #pragma mark - Private

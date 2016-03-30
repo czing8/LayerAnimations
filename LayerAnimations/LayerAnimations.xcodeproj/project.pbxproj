@@ -15,6 +15,12 @@
 		F109E65B1C8EDF7600FF4BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F109E6591C8EDF7600FF4BCE /* LaunchScreen.storyboard */; };
 		F109E6651C8FB70E00FF4BCE /* VPulseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E6641C8FB70E00FF4BCE /* VPulseLayer.m */; };
 		F109E6671C8FB7AE00FF4BCE /* IPhone_5s.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E6661C8FB7AE00FF4BCE /* IPhone_5s.png */; };
+		F14885121CAC1C9600DA5513 /* VCAEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F148850D1CAC1C9600DA5513 /* VCAEmitterLayerView.m */; };
+		F14885131CAC1C9600DA5513 /* VRainView.m in Sources */ = {isa = PBXBuildFile; fileRef = F148850F1CAC1C9600DA5513 /* VRainView.m */; };
+		F14885141CAC1C9600DA5513 /* VSnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F14885111CAC1C9600DA5513 /* VSnowView.m */; };
+		F14885161CAC1D8900DA5513 /* close_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14885151CAC1D8900DA5513 /* close_blue@2x.png */; };
+		F14885181CAC1D9700DA5513 /* raindrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14885171CAC1D9700DA5513 /* raindrop@2x.png */; };
+		F148851A1CAC1D9D00DA5513 /* snow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14885191CAC1D9D00DA5513 /* snow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,15 @@
 		F109E6631C8FB70E00FF4BCE /* VPulseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPulseLayer.h; sourceTree = "<group>"; };
 		F109E6641C8FB70E00FF4BCE /* VPulseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPulseLayer.m; sourceTree = "<group>"; };
 		F109E6661C8FB7AE00FF4BCE /* IPhone_5s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IPhone_5s.png; sourceTree = "<group>"; };
+		F148850C1CAC1C9600DA5513 /* VCAEmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAEmitterLayerView.h; sourceTree = "<group>"; };
+		F148850D1CAC1C9600DA5513 /* VCAEmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAEmitterLayerView.m; sourceTree = "<group>"; };
+		F148850E1CAC1C9600DA5513 /* VRainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRainView.h; sourceTree = "<group>"; };
+		F148850F1CAC1C9600DA5513 /* VRainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRainView.m; sourceTree = "<group>"; };
+		F14885101CAC1C9600DA5513 /* VSnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSnowView.h; sourceTree = "<group>"; };
+		F14885111CAC1C9600DA5513 /* VSnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSnowView.m; sourceTree = "<group>"; };
+		F14885151CAC1D8900DA5513 /* close_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_blue@2x.png"; sourceTree = "<group>"; };
+		F14885171CAC1D9700DA5513 /* raindrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raindrop@2x.png"; sourceTree = "<group>"; };
+		F14885191CAC1D9D00DA5513 /* snow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +78,7 @@
 		F109E64A1C8EDF7600FF4BCE /* LayerAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				F148850B1CAC1C9600DA5513 /* VCAEmitterLayerView */,
 				F109E6621C8FB70E00FF4BCE /* VPulseLayer */,
 				F109E64E1C8EDF7600FF4BCE /* AppDelegate.h */,
 				F109E64F1C8EDF7600FF4BCE /* AppDelegate.m */,
@@ -93,6 +109,22 @@
 				F109E6641C8FB70E00FF4BCE /* VPulseLayer.m */,
 			);
 			path = VPulseLayer;
+			sourceTree = "<group>";
+		};
+		F148850B1CAC1C9600DA5513 /* VCAEmitterLayerView */ = {
+			isa = PBXGroup;
+			children = (
+				F14885151CAC1D8900DA5513 /* close_blue@2x.png */,
+				F14885171CAC1D9700DA5513 /* raindrop@2x.png */,
+				F14885191CAC1D9D00DA5513 /* snow@2x.png */,
+				F148850C1CAC1C9600DA5513 /* VCAEmitterLayerView.h */,
+				F148850D1CAC1C9600DA5513 /* VCAEmitterLayerView.m */,
+				F148850E1CAC1C9600DA5513 /* VRainView.h */,
+				F148850F1CAC1C9600DA5513 /* VRainView.m */,
+				F14885101CAC1C9600DA5513 /* VSnowView.h */,
+				F14885111CAC1C9600DA5513 /* VSnowView.m */,
+			);
+			path = VCAEmitterLayerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +185,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F109E65B1C8EDF7600FF4BCE /* LaunchScreen.storyboard in Resources */,
+				F148851A1CAC1D9D00DA5513 /* snow@2x.png in Resources */,
 				F109E6581C8EDF7600FF4BCE /* Assets.xcassets in Resources */,
 				F109E6671C8FB7AE00FF4BCE /* IPhone_5s.png in Resources */,
+				F14885181CAC1D9700DA5513 /* raindrop@2x.png in Resources */,
+				F14885161CAC1D8900DA5513 /* close_blue@2x.png in Resources */,
 				F109E6561C8EDF7600FF4BCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,7 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F109E6651C8FB70E00FF4BCE /* VPulseLayer.m in Sources */,
+				F14885131CAC1C9600DA5513 /* VRainView.m in Sources */,
+				F14885141CAC1C9600DA5513 /* VSnowView.m in Sources */,
 				F109E6531C8EDF7600FF4BCE /* ViewController.m in Sources */,
+				F14885121CAC1C9600DA5513 /* VCAEmitterLayerView.m in Sources */,
 				F109E6501C8EDF7600FF4BCE /* AppDelegate.m in Sources */,
 				F109E64D1C8EDF7600FF4BCE /* main.m in Sources */,
 			);
